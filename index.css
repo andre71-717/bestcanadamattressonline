@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.product_container{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+}
+
+.product_container_1{
+    display: flex;
+    gap: 15px;
+}
+
+.product_container_inners{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    border: 3px solid black;
+}
+
+.product_container_1_inners{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.ul_for_images li{
+    width: 100%;
+    list-style: none;
+    margin: 5% 0;
+}
+
+.my1img{
+    width: 70%;
+    margin: auto;
+}
+.my2img{
+    width: 70%;
+    margin: auto;
+}
+.my3img{
+    width: 30%;
+    margin: auto;
+}
+
+.product_container_1_inners img{
+    display: block;
+}
+
+.ul_for_images li p{
+    text-align: center;
+}
+
+.ul_for_editors_choice li{
+    list-style: none;
+    margin: 8px 15%;
+    display: flex;
+    gap: 7px;
+}
+
+.header_for_ed h2{
+    margin-bottom: 15px;
+}
+
+.my_ribbon{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.my_ribbon_abs{
+    position: absolute;
+    top: 13px;
+}
+
+.my_ribbon_abs span{
+    color: white;
+    font-size: 18px;
+}
+
+.discount_code{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.discount_code span{
+    color: orange;
+}
+
+.free_acc{
+   text-align: center;
+}
+
+.button{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button button{
+    width: 70%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.my_visit{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.product_container_2{
+    width: 100%;
+    height: auto;
+    margin: 25px 0;
+}
+
+.product_container_2 p{
+    text-align: center;
+    color: orange;
+}
+
+.product_container_2 p i{
+    color: orange;
+    font-size: 18px;
+}
+
+.product_container_3{
+    width: 100%;
+    display: flex;
+    margin: 25px 0;
+    padding: 0 30px;
+    gap: 25px;
+}
+
+.product_reviews h3{
+    margin: 10px 0;
+}
+
+.container3{
+    width: 100%;
+    height: auto;
+    margin: 85px 0;
+}
+
+.container3inner{
+    width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    height: auto;
+    border-radius: 15px;
+    
+}
+
+.container3inner h1{
+    color: rgb(39, 53, 73);
+    font-family: Lato;
+    text-align: center;
+    margin: 5% 0;
+    font-size: 45px;
+}
+
+.my_starting_price{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+
+
+table, tr, td{
+    border: 1px solid;
+}
+
+table{
+    margin: 1% 2%;
+    border-collapse: collapse;
+
+    
+}
+
+.non{
+   background: white;
+   border-left: 1px solid white;
+   border-right: 1px solid rgb(225, 225, 225);
+   border-top: 1px solid white;
+   background-color: white !important;
+}
+
+.non2{
+   background-color: white !important;
+   border-left: 1px solid white;
+   border-bottom: 1px solid white;
+
+
+    
+}
+
+tr td:nth-child(odd){
+    background-color: rgb(241, 235, 235);      
+}
+
+tr td:first-child{
+    position: sticky;
+    left: 0;
+    z-index: 100 !important;
+    width: 12%;
+}
+
+.tablee{
+    overflow: auto;
+}
+
+tr{
+   height: 70px;
+}
+
+td{
+    width: 5%;
+    padding: 5px;
+    text-align: center;
+    font-family: Lato;
+    line-height: 30px;
+    position: relative;
+    border: 1px solid rgb(225, 225, 225);
+    
+}
+
+.td1{
+   width: 5%;
+   height: 130px;
+   text-align: center;
+   font-family: Lato;
+   line-height: 30px;
+   position: relative;
+}
+
+/* 
+.tdborders1{
+   border-left: 3px solid;
+   border-right: 3px solid;
+   border-bottom: 3px solid;
+} */
+
+.tdinners{
+   background-color: rgb(39, 53, 73);
+   width: 114%;
+   top: -102px;
+   left: -8px;
+   font-size: 13px;
+   border-radius: 15px 15px 0px 0px;
+   line-height: 18px;
+   padding: 10px;
+   position: relative;
+   z-index: 55;
+
+}
+.triangle {
+   width: 17px;
+   height: 17px;
+   border: solid 1px;
+   background-color: rgb(39, 53, 73);
+   transform: rotate(45deg);
+   top: -15px;
+   left: 0;
+   right: 0;
+   margin-right: auto;
+   margin-left: auto;
+   position: absolute;
+}
+
+   
+
+
+.tdinners h6{
+    color: white;  
+}
+
+.tdinners h4{
+   color: white; 
+   font-size: 14px;
+}
+
+.tableimgs img{
+   max-width: 90px;
+   max-height: 33px;
+   height: auto;
+   position: absolute;
+   bottom: 10px;
+   left: 0;
+   right: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.hidecr{
+   border: 1px solid white;
+}
+
+.hidecr td{
+    border: 1px solid white;
+    background-color: white !important;
+    z-index: 50;
+    width: 50px;
+    height: 110px;
+    border-top: 1px solid white;
+}
+
+.tdcontent{
+   font-size: 14px;
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 9px;
+   line-height: 18px;
+}
+.tdcontent p span{
+   display: block;
+}
+
+
+td h2{
+   font-size: 17px;
+   line-height: 21px;
+   margin: 8px;
+}
+
+
+td i{
+    font-size: 25px;
+}
+
+td p{
+    margin-bottom: 45px;
+}
+
+
+
+.check{  
+    color: rgb(40, 64, 81);
+    margin: 15px;
+}
+
+.tdmaininners{
+    display: flex !important;
+    flex-wrap: wrap;
+    margin: 5px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.xmark{
+    color: rgb(177, 177, 177);
+    margin: 15px;
+}
+
+.tablebutton{
+   padding: 13px 25px;
+   border-radius: 10px;
+   font-family: 'Lato';
+   border: 0;
+   letter-spacing: 1px;
+   margin: 25px 0;
+   background-color: red;
+   color: white;
+   cursor: pointer;
+}
+
+.nonvisible{
+    border: 0;
+   visibility: hidden;
+}
